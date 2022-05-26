@@ -1,0 +1,37 @@
+
+#search-friend{
+    width: 80%;
+    vertical-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+
+.add-contact-btn{
+    align-content: end;
+}
+
+#dropdown-button:focus,#dropdown-basic-button:hover{
+    outline: 0;
+}
+
+#chats-row{
+    min-height: 100px;
+    height: 17%;
+    border-radius: 5px;
+    box-shadow: black;
+}
+.show,.dropdown:focus{
+    outline: none;
+}
+
+
+
+
+#add-cont,#log-out {
+    margin: 5%;
+    color: white;
+    background: #A23160;}
+
+
