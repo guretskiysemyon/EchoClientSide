@@ -1,0 +1,82 @@
+body{
+    background: #341454;
+}
+.row{
+    --bs-gutter-x:0;
+    padding: 0;
+    width: 100%;
+}
+.bar{
+    margin: 0;
+    width: 100%;
+    height: 125px;
+    background: #220C37;
+}
+.logo{
+    text-align-all: left;
+    height: 100%;
+}
+
+.logo{
+    left:0;
+    height: 125px;
+}
+
+.form{
+    margin-top: 5%;
+    color:white;
+}
+
+#acc-img{
+    width: 60%;
+    margin-left: 50px;
+}
+.form-content{
+    height: 350px;
+    padding-top: 25px;
+    background: #220C37;
+    opacity: 80%;
+    border: none;
+    border-radius: 5px;
+}
+.form-control,.log-in-but{
+    margin:  auto;
+    width: 70%;
+}
+
+.start-but{
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+    background-image: linear-gradient(to right, #FF008E, #8F0ABE, #0012B8);
+    border-radius: 5px;
+    border: none;
+}
+
+.another-options{
+    margin-top: 50px;
+}
+#msgBox {
+    height: 100px;
+    width: 130px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 320px;
+    max-width: 600px;
+    padding: 10px;
+    background: #341454;
+}
+.btn-box{
+    margin-top: 20px;
+}
+
+a:hover{
+    color: black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
