@@ -10,4 +10,10 @@
 
 _It's already set up on url's of projects that you find in another repos, but in case - you know where to find it_ :upside_down_face:
 
-
+## **guide:**
+* When you opened API and Feedback APP - you can use react app from starting page.
+* You can sign up, or login with username: 'Bodek' and password: 'w2' that we already stored in DB![2022-05-26 (2)](https://user-images.githubusercontent.com/92333588/170553002-0540d269-1f4f-4450-839d-56af13fe164a.png)
+* Also, to fill all functionality of our messenger - you can open another incognito tab and ECHO messenger from there. After login (you can login with username: 'semyon' and password: 'q1') you can write and get messages simultaneously due to _signalr_ :relieved:
+![2022-05-26 (3)](https://user-images.githubusercontent.com/92333588/170554242-b25fbcfe-b8a6-4b4f-af26-ae2aeddfb276.png)
+***
+Enjoy!
