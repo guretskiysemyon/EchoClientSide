@@ -1,0 +1,25 @@
+.box-message{
+    padding: 5px;
+    color: white;
+    word-break: break-word;
+    border:none;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.left{
+    margin: 20px auto 20px 10px;
+    background: linear-gradient(to right,#FF42AB,#871E7D)
+}
+.right{
+    
+    margin: 20px 10px 20px auto;
+    background: linear-gradient(to right,#FF008E,#0012B8)
+}
+#time{
+    text-align: end;
+}
+
+.video,.img{
+    width: 100%;
+}
