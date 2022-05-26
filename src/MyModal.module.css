@@ -1,0 +1,79 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+
+.myModalContent {
+    padding: 25px;
+    background: #341454;
+    border-radius: 16px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.myModalContent button{
+    border: none;
+    border-radius: 5px;
+    background: #A23160;
+    margin: 10px;
+    color: white;
+}
+
+.myModalContent button:hover{
+   background: #A23160;
+}
+
+
+.myModalContent input {
+    margin: 10px;
+    color: white;
+    background: none;
+}
+
+.myModalContent input:focus{
+    outline: none;
+}
+.myModalContent input[type=file]::file-selector-button {
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: #8F0ABE;
+}
+
+.myModalContent input {
+    cursor: pointer;
+    margin: auto;
+    color: white;
+    
+    background: linear-gradient(#220C37, #341454, #8F0ABE, 0.5);
+}
+
+
+
+
+
+.myModal audio {
+    margin:0 auto;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+
+.myModalContent audio::-webkit-media-controls-panel {
+    background-color: #8F0ABE;
+}
+
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}

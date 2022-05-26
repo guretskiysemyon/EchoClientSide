@@ -1,0 +1,56 @@
+.App{
+    color: white !important;
+    background: #341454;
+}
+.chats-text{
+    color: white;
+}
+.row{
+    padding: 0;
+    --bs-gutter-x: 0;
+}
+.col-md-4,.col-md-8{
+    padding: 0;
+    border: 1px solid black;
+    height: 100vh
+}
+
+.chat-window{
+    height: 90vh;
+    background: #341454;
+}
+
+
+
+
+.message-window{
+    height: 90%;
+    padding-bottom: 20px;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+.message-window::-webkit-scrollbar,.contacts-list::-webkit-scrollbar{
+    width: 5px;
+}
+.message-window::-webkit-scrollbar-track,.contacts-list::-webkit-scrollbar-track {
+    background: none;        /* color of the tracking area */
+}
+.message-window::-webkit-scrollbar-thumb,.contacts-list::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: none;  /* creates padding around scroll thumb */
+}
+
+.col-md-4{
+    background: #220C37;
+}
+
+.contacts-list{
+    width: 90%;
+    padding-bottom: 20px;
+    overflow-x: hidden ;
+    overflow-y: auto;
+    margin: 30px;
+    max-height: 80vh;
+}
