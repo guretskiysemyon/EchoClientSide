@@ -1,19 +1,25 @@
-# EchoReact
-***
-## **instruction:**
 
-* to use ECHO messenger, you need to run API (you can read about it in readme of ECHO Library repository) and run current react app
-***
-*  you need to install react:_react-bootstrap, rect-router, react-router-dom, @microsoft/signalr_
-* check url of your API and write it here (src/project/Echo.jsx):![2022-05-26](https://user-images.githubusercontent.com/92333588/170547816-8ce84581-bde2-4e81-84ee-5a231210e345.png)
-* check url of Feedback APP and write it here (src/project/startPages/LogIn.jsx):![2022-05-26 (1)](https://user-images.githubusercontent.com/92333588/170548877-b2a5f22f-8aaf-442f-b214-c546873a4e9a.png)
+This project is the client-side of the messenger application called Echo. This repository is part of a larger project that was made as a study project in a course. During the course, we ran the project only on a local server.
 
-_It's already set up on url's of projects that you find in another repos, but in case - you know where to find it_ :upside_down_face:
+### Installation:
+We used the following libraries: react-bootstrap, react-router, react-router-dom, and @microsoft/signalr.
 
-## **guide:**
-* When you opened API and Feedback APP - you can use react app from starting page.
-* You can sign up, or login with username: 'Bodek' and password: 'w2' that we already stored in DB![2022-05-26 (2)](https://user-images.githubusercontent.com/92333588/170553002-0540d269-1f4f-4450-839d-56af13fe164a.png)
-* Also, to fill all functionality of our messenger - you can open another incognito tab and ECHO messenger from there. After login (you can login with username: 'semyon' and password: 'q1') you can write and get messages simultaneously due to _signalr_ :relieved:
+### How does it look like?
+Let's take a tour. The first screen is:
+
+![start_page](https://user-images.githubusercontent.com/92333588/165581175-c26f799a-de6b-464b-8a8c-a02431be1d62.png)
+
+And now you can move to the sign-up screen:
+
+![sign_up](https://user-images.githubusercontent.com/92333588/165581814-72e228e1-4dde-4cbd-ace3-4d613ac4bd8d.png)
+
+Or the log-in screen:
+![log_in](https://user-images.githubusercontent.com/92333588/165582475-838d90e9-308c-4924-98b6-c49f0be3fdd1.png)
+
+After this, you can finally move to the main screen of the application with all chats:
+![chat](https://user-images.githubusercontent.com/92333588/165797870-fefb1bfa-a36e-46af-aadf-b3db74c7e265.png)
+![audio](https://user-images.githubusercontent.com/92333588/165584319-7bb9e3b6-f0bc-4f4a-b88c-9c5bc84c6df0.png)
 ![2022-05-26 (3)](https://user-images.githubusercontent.com/92333588/170554242-b25fbcfe-b8a6-4b4f-af26-ae2aeddfb276.png)
-***
+
+
 Enjoy!
